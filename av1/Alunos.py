@@ -144,8 +144,7 @@ with open(STANDARDIZED_FILE, mode='w') as fileNovoAlunos:
                 age = 0
 
             # Removendo todas as idades (e datas) negativas e maiores que 150
-            # TODO: verificar com professor como escolher a maior idade possível para a tabela de alunos
-            if 0 < age < 150:
+            if 0 < age < 37:
                 newLine += REGEX_SEPARATOR + str(age)
             else:
                 newArr = newLine.split(REGEX_SEPARATOR)
