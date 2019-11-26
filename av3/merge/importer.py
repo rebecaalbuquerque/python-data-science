@@ -1,5 +1,5 @@
 import pandas as pd
-import redu_mem as rm
+import av3.merge.redu_mem as rm
 from random import randrange
 
 
